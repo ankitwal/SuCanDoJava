@@ -1,0 +1,20 @@
+
+These are two java classes implanting a Sudoku solver.
+
+Note. There is no input mechanism the 3 puzzles are hardcoded in the code. It maybe useful to anyone looking for a quick and efficient easy to understand java implementation. 
+
+Class Solver, uses ArrayList Objects to keep track of the guesses it makes. Each new guess is a new object of the ArrayList class, forming a List like structure. 
+
+The code is well commented, follow the function guess(ArrayList obj) in Solver.
+
+Summary of what it does:
+
+1.Resolves the puzzles till no new cells can be determined.
+
+2.Locates cells with least number of possibilities.
+
+3.Cycles through the possibilities of that cell from step one.
+
+4.If no possibility of that(nested) cell works, the retraces previous cell guess, and repeats recursively. 
+
+Ankit Wal.
